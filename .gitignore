@@ -1,0 +1,17 @@
+# Ignore Terraform binary and log files
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock
+*.tfstate.lock.info
+*.terraform/
+*terraform.tfvars
+*terraform.tfstate.backup
+*.kube
+*.config
+*.env
+
+# Ignore .terraform.lock.hcl file, used by Terraform to track provider versions
+.terraform.lock.hcl
+
+# Ignore .tfplan files, which may contain sensitive data
+*.tfplan
